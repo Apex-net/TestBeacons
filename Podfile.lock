@@ -1,0 +1,10 @@
+PODS:
+  - EstimoteSDK (3.2.2)
+
+DEPENDENCIES:
+  - EstimoteSDK (~> 3.2)
+
+SPEC CHECKSUMS:
+  EstimoteSDK: 357d27143d8cfb3bc7a98cf45d026409c4d0cd7d
+
+COCOAPODS: 0.36.3
