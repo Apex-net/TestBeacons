@@ -86,10 +86,10 @@ class EddystoneDiscoveryViewController: UITableViewController, ESTEddystoneManag
             
             // set texts
             if beacon.url != nil {
-                cell.textLabel?.text = "\(beacon.macAddress) / \(beacon.url)"
+                cell.textLabel?.text = "MAC ADDRESS: \(beacon.macAddress) / URL: \(beacon.url)"
             }
             else {
-                cell.textLabel?.text = "\(beacon.macAddress)"
+                cell.textLabel?.text = "MAC ADDRESS: \(beacon.macAddress)"
             }
             if beacon.telemetry != nil {
                 cell.detailTextLabel?.text = "RSSI: \(beacon.rssi) Battery: \(beacon.telemetry.battery) Temp:  \(beacon.telemetry.temperature)"
