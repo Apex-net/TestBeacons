@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		58AA1A549ECC821042AB41CD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3635D4BAA389E739547FA83 /* libPods.a */; };
+		F854C59A1B5D538A0099A147 /* EddystoneDiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F854C5991B5D538A0099A147 /* EddystoneDiscoveryViewController.swift */; };
+		F854C5A21B5D58DD0099A147 /* 1126-bowtie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F854C59F1B5D58DD0099A147 /* 1126-bowtie@2x.png */; };
+		F854C5A31B5D58DD0099A147 /* 1126-bowtie@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F854C5A01B5D58DD0099A147 /* 1126-bowtie@3x.png */; };
+		F854C5A41B5D58DD0099A147 /* 1126-bowtie.png in Resources */ = {isa = PBXBuildFile; fileRef = F854C5A11B5D58DD0099A147 /* 1126-bowtie.png */; };
 		F85AB7391AFCCD3A00F02282 /* 751-eye.png in Resources */ = {isa = PBXBuildFile; fileRef = F85AB7301AFCCD3A00F02282 /* 751-eye.png */; };
 		F85AB73A1AFCCD3A00F02282 /* 751-eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85AB7311AFCCD3A00F02282 /* 751-eye@2x.png */; };
 		F85AB73B1AFCCD3A00F02282 /* 751-eye@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85AB7321AFCCD3A00F02282 /* 751-eye@3x.png */; };
@@ -50,6 +54,10 @@
 		470293CAA038EA6F08FFDAC9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4E78524DC888D248ABAF6404 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A3635D4BAA389E739547FA83 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F854C5991B5D538A0099A147 /* EddystoneDiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EddystoneDiscoveryViewController.swift; sourceTree = "<group>"; };
+		F854C59F1B5D58DD0099A147 /* 1126-bowtie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1126-bowtie@2x.png"; sourceTree = "<group>"; };
+		F854C5A01B5D58DD0099A147 /* 1126-bowtie@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1126-bowtie@3x.png"; sourceTree = "<group>"; };
+		F854C5A11B5D58DD0099A147 /* 1126-bowtie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1126-bowtie.png"; sourceTree = "<group>"; };
 		F85AB72E1AFCAF1800F02282 /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
 		F85AB7301AFCCD3A00F02282 /* 751-eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "751-eye.png"; sourceTree = "<group>"; };
 		F85AB7311AFCCD3A00F02282 /* 751-eye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "751-eye@2x.png"; sourceTree = "<group>"; };
@@ -138,6 +146,9 @@
 				F85AB7541AFD0B9F00F02282 /* 1243-stop-toolbar@2x.png */,
 				F85AB7551AFD0B9F00F02282 /* 1243-stop-toolbar@3x.png */,
 				F85AB75E1AFD148D00F02282 /* beacon_linearnie.png */,
+				F854C59F1B5D58DD0099A147 /* 1126-bowtie@2x.png */,
+				F854C5A01B5D58DD0099A147 /* 1126-bowtie@3x.png */,
+				F854C5A11B5D58DD0099A147 /* 1126-bowtie.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -176,6 +187,7 @@
 				F85AB74B1AFCF0E500F02282 /* BeaconDetailViewController.swift */,
 				F8DBF78F1B039A8900F44CB1 /* RadarNotificationViewController.swift */,
 				F85AB7481AFCD00F00F02282 /* NotificationDetailViewController.swift */,
+				F854C5991B5D538A0099A147 /* EddystoneDiscoveryViewController.swift */,
 			);
 			path = TestEstimote;
 			sourceTree = "<group>";
@@ -296,6 +308,7 @@
 				F8E1278A1AFCAA1500202DA4 /* LaunchScreen.xib in Resources */,
 				F85AB7591AFD0B9F00F02282 /* 1243-stop-toolbar.png in Resources */,
 				F85AB73F1AFCCD3A00F02282 /* 849-radar.png in Resources */,
+				F854C5A21B5D58DD0099A147 /* 1126-bowtie@2x.png in Resources */,
 				F8E127871AFCAA1500202DA4 /* Images.xcassets in Resources */,
 				F85AB73C1AFCCD3A00F02282 /* 845-location-target.png in Resources */,
 				F85AB75B1AFD0B9F00F02282 /* 1243-stop-toolbar@3x.png in Resources */,
@@ -304,10 +317,12 @@
 				F85AB75A1AFD0B9F00F02282 /* 1243-stop-toolbar@2x.png in Resources */,
 				F85AB7561AFD0B9F00F02282 /* 1241-play-toolbar.png in Resources */,
 				F85AB7571AFD0B9F00F02282 /* 1241-play-toolbar@2x.png in Resources */,
+				F854C5A31B5D58DD0099A147 /* 1126-bowtie@3x.png in Resources */,
 				F85AB73E1AFCCD3A00F02282 /* 845-location-target@3x.png in Resources */,
 				F85AB75F1AFD148D00F02282 /* beacon_linearnie.png in Resources */,
 				F85AB73B1AFCCD3A00F02282 /* 751-eye@3x.png in Resources */,
 				F85AB7401AFCCD3A00F02282 /* 849-radar@2x.png in Resources */,
+				F854C5A41B5D58DD0099A147 /* 1126-bowtie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F85AB7451AFCCFB600F02282 /* NearestTableViewController.swift in Sources */,
+				F854C59A1B5D538A0099A147 /* EddystoneDiscoveryViewController.swift in Sources */,
 				F85AB7491AFCD00F00F02282 /* NotificationDetailViewController.swift in Sources */,
 				F8DBF7901B039A8900F44CB1 /* RadarNotificationViewController.swift in Sources */,
 				F85AB74C1AFCF0E500F02282 /* BeaconDetailViewController.swift in Sources */,
